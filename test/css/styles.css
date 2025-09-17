@@ -1,0 +1,134 @@
+body {
+    background-color: whitesmoke;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    background-color: brown;
+    padding: 8px 0;
+
+}
+
+.barra-menu {
+    width: 100%;
+    border: 3px solid black;
+    padding: 10px;
+    background-color: aqua;
+}
+
+#lista-desordenada1 {
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.barra-menu-links {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color: white;
+    margin: 0px 10px;
+}
+
+.cajas-ul {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    width: 80px;
+    height: 50px;
+    text-align: center;
+    margin: 0px 16px;
+}
+
+.cajas-ul a {
+    text-decoration: none;
+}
+
+
+h1 {
+    text-align: center;
+    font-family: "Quintessential", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px
+}
+
+.main-completo {
+    display: flex;
+    width: 100%;
+    height: 700px;
+    background-color: antiquewhite;
+    padding-top: 60px;
+
+}
+
+.parte-main-izquierda {
+    height: 120px;
+}
+
+#img-main {
+    width: 700px;
+    height: 700px;
+}
+
+.parte-main-derecha {
+    margin-top: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    padding: 1px 0;
+    text-align: center;
+}
+
+.articles {
+    margin: 50px 0;
+}
+
+.people {
+    width: 100px;
+    height: 100px;
+}
+
+.opiniones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.p-font-quint {
+    font-family: "Quintessential", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.spanbold {
+    font-weight: bold;
+}
+
+#info {
+    font-size: 30px;
+    text-align: center;
+    line-height: 1.5;
+    font-family: "Aladin", system-ui;
+    font-weight: initial;
+    font-style: normal;
+    margin-bottom: 80px;
+    font-style: italic;
+
+}
+
+#h3info {
+    text-align: center;
+    font-size: 50px;
+    background-color: antiquewhite;
+    margin: 0;
+
+}
+
+#hrinfo {
+    border: 2px solid black;
+}
+
